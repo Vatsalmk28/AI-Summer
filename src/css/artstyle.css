@@ -1,0 +1,131 @@
+/* Container and base styling */
+.artistic-container {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 60px 20px 20px;
+  background: linear-gradient(to bottom right, #dfefff, #e8f4ff);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.artistic-container h1 {
+  font-size: 2rem;
+  margin-bottom: 8px;
+  font-weight: 700;
+  color: #333;
+}
+
+.artistic-container .subtitle {
+  font-size: 0.95rem;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+/* Upload section with cards */
+.upload-section {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.upload-card {
+  flex: 1 1 200px;
+  max-width: 350px;
+  background: #f7f9fc;
+  border-radius: 12px;
+  padding: 20px 15px;
+  cursor: pointer;
+  border: 2px solid transparent;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  text-align: center;
+  transition: all 0.3s ease;
+  user-select: none;
+}
+
+.upload-card:hover {
+  box-shadow: 0 8px 15px rgba(0,0,0,0.12);
+  transform: translateY(-4px);
+}
+
+.upload-card p {
+  font-weight: 600;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.upload-card input {
+  display: block;
+  margin: 0 auto;
+  font-size: 14px;
+}
+
+/* Button styling */
+.artistic-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 25px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  min-width: 200px;
+}
+
+.artistic-button:hover {
+  background-color: #005ecb;
+}
+
+.artistic-button:disabled {
+  background-color: #a0c5ff;
+  cursor: not-allowed;
+}
+
+/* Error text */
+.artistic-error {
+  color: #ff4d4f;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+/* Result section */
+.result-section {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.result-section h3 {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.result-image {
+  max-width: 90%;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+.preview-image {
+  margin-top: 10px;
+  max-width: 150px;
+  border-radius: 8px;
+  box-shadow: 0 0 4px rgba(0,0,0,0.2);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
