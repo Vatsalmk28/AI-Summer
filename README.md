@@ -16,4 +16,3 @@ This the Home Page From Where you can access multiple Features of the Website.
 ![Image](https://github.com/user-attachments/assets/a7968e03-829d-450c-88f7-e2976e315d11)
 ![Image](https://github.com/user-attachments/assets/a0e9c368-86d9-48fc-9ac8-807cb4d21366)
 ![Image](https://github.com/user-attachments/assets/7ccf2424-a73b-400a-a20a-ad00128bdf68)
-![Image](https://github.com/user-attachments/assets/da88536e-6a8d-453d-ae5a-19b7d052a126)
